@@ -2,15 +2,17 @@
 
 Link for live demo:
 =======
-=======
 ## Describe your topic/interest in about 150-200 words
 
 
 --- 
 ## SDLC that we use is Plan-driven method
 - Reason: 
+- Phases:
+    + 
+    +
+    +
 ## Team Members
-
 =======
 - **Khai Hung**: I'm 3th year comsci student who loves reading books !
 - **Anshul**: 
