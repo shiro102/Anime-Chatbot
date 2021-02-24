@@ -12,8 +12,15 @@ Link for live demo:
     + 
     +
     +
+    
+## Work Breakdown Structure (WBS):
+
+
+## Gantt chart: 
+
+
+
 ## Team Members
-=======
 - **Khai Hung**: I'm 3th year comsci student who loves reading books !
 - **Anshul**: 
 - **Jayant Puri**:
