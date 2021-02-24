@@ -26,7 +26,7 @@ Link for live demo:
 - **Anshul**: 
 - **Jayant Puri**:
 - **Sirus**:
-- **Joseph**
+- **Joseph**: I'm a 3rd year math student who loves snowboarding!
 
 ## References
 
