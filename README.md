@@ -2,7 +2,7 @@
 
 Link for live demo:
 =======
-## Describe your topic/interest in about 150-200 words
+## Describe your topic/interest (context of the chatbot, who will use it 
 
 
 --- 
@@ -19,7 +19,7 @@ Link for live demo:
 ## Gantt chart: 
 
 
-
+## Limitations of the program submitted: 
 ## Team Members
 - **Khai Hung**: I'm 3th year comsci student who loves reading books !
 - **Anshul**: 
