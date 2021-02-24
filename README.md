@@ -3,7 +3,6 @@
 Link for live demo:
 =======
 >>>>>>>
-Read Research_analysis.md for raw analysis using Jupyter Lab
 =======
 ## Describe your topic/interest in about 150-200 words
 
