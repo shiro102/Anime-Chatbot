@@ -7,7 +7,8 @@ Link for live demo:
 
 
 --- 
-
+## SDLC that we use is Plan-driven method
+- Reason: 
 ## Team Members
 
 =======
