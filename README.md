@@ -2,7 +2,6 @@
 
 Link for live demo:
 =======
->>>>>>>
 =======
 ## Describe your topic/interest in about 150-200 words
 
@@ -17,7 +16,6 @@ Link for live demo:
 - **Jayant Puri**:
 - **Sirus**:
 - **Joseph**
->>>>>>>
 
 ## References
 
