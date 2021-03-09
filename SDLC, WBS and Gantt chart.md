@@ -6,7 +6,7 @@
  	 	i) Choosing a platform to publish the application
     	           a) Creating github account for each team member
     	           b) Creating  team github account
-  		 ii) Choose a software development cycle
+  		ii) Choose a software development cycle
         	   c) To Give reasons for the choice
   	 	iii) Creating WBS and Gantt charts.
   
@@ -28,15 +28,15 @@
   		ii) Testing ambiguous questions.
   		iii) testing the interactive elements
   		iv) Record errors and fix them.
-		a) debugging
- 		b) Add code for error prevention
-		c) Supplement and complete the dataset
+			a) debugging
+ 			b) Add code for error prevention
+			c) Supplement and complete the dataset
 	
     5) Publishing application:
- 		 i) Establish publishing date
- 		 ii) Synchronize each member’s work
-		 iii) Publish the application to github
- 	 	 iv) Presentation
+ 		i) Establish publishing date
+ 		ii) Synchronize each member’s work
+		iii) Publish the application to github
+ 	 	iv) Presentation
 	
 
 
