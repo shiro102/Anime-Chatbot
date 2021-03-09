@@ -43,3 +43,5 @@
 
 
 ## Gantt chart: 
+![Gantt](https://cdn.discordapp.com/attachments/798946362313408572/818986258076401684/Gannt_Chart_Final.png)
+
