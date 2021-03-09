@@ -38,19 +38,9 @@
 		iii) Publish the application to github
  	 	iv) Presentation
 	
-
-
-
 --- 
-## SDLC that we use is Plan-driven method
-- Reason: 
-- Phases:
-    + Tasks:
-        - Sub tasks:
-    +
-    +
-    
 ## Work Breakdown Structure (WBS):
+![WBS](https://cdn.discordapp.com/attachments/798946362313408572/817114483172442142/Final_1.jpg)
 
 
 ## Gantt chart: 
