@@ -3,7 +3,7 @@
 =======
 ## The Software Development Life Cycles:
         1) Analyze requirements:
-  	i) choosing a platform to publish the application
+  		i) Choosing a platform to publish the application
                  a) Creating github account for each team member
                  b) Creating  team github account
       	ii) Choose a software development cycle
