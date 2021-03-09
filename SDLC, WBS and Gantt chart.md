@@ -7,7 +7,7 @@
     	           a) Creating github account for each team member
     	           b) Creating  team github account
   		ii) Choose a software development cycle
-        	  	    c) To Give reasons for the choice
+        	  	   c) To Give reasons for the choice
   	 	iii) Creating WBS and Gantt charts.
   
     2) Establish design:
