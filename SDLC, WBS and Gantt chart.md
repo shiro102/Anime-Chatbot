@@ -20,7 +20,7 @@
   		i) Build the dataset for chatbot 
   		ii) Implement the user interface. 
   		iii) Implement back-end (Training the chatbot)	
-              	 a) Choosing libraries
+              	   a) Choosing libraries
   		iv) Integrate the front end and back end.
   
     4) Testing:
