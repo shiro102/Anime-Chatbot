@@ -3,7 +3,7 @@
 =======
 ## The Software Development Life Cycles:
         1) Analyze requirements:
-  i) choosing a platform to publish the application
+  	i) choosing a platform to publish the application
                  a) Creating github account for each team member
                  b) Creating  team github account
       	ii) Choose a software development cycle
@@ -20,7 +20,7 @@
 	i) Build the dataset for chatbot 
 	ii) Implementing the user interface. 
 	iii) Implement back-end (Training the chatbot)
-	     a) Choosing libraries
+	    	a) Choosing libraries
 	iv) Integrate the front end and back end.
   
        4) Testing:
@@ -28,9 +28,9 @@
 	ii) Testing ambiguous questions.
 	iii) testing the interactive elements
 	iv) Record errors and fix them.
-	      a)  debugging
-Add code for error prevention
-Supplement and complete the dataset
+	      	a) debugging
+		b) Add code for error prevention
+		c) Supplement and complete the dataset
 
        5) Publishing application:
 	i) Establish publishing date
