@@ -51,7 +51,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 			a) debugging
  			b) Add code for error prevention
 			c) Supplement and complete the dataset
-	
+
     5) Publishing application:
  		i) Establish publishing date
  		ii) Synchronize each member’s work

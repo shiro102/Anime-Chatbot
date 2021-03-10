@@ -3,24 +3,49 @@
 Link for live demo:
 =======
 ## Describe your topic/interest (context of the chatbot, who will use it 
+In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. The target users are anime lovers who would love to talk about anime and know more about it. The topic of the conversation is about the general information and personal preference of anime.
 
+<br>
 
---- 
-## SDLC that we use is Plan-driven method
-- Reason: 
-- Phases:
-    + Tasks:
-        - Sub tasks:
-    +
-    +
-    
-## Work Breakdown Structure (WBS):
+## How the code works
 
+### **How to run it:** 
 
-## Gantt chart: 
+To compile the code, we run in terminal these 2 lines of codes - “python train_chatbot.py” and “python chatgui.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. 
+### **Stages of development:**
 
+There are five stages of the development for the code: data importing and loading, data preprocessing, data training and testing, model building, and GUI developing.
+
+### **How the classes are organized:**
+
+There are 6 classes used in the code: nltk, json, pickle, numpy, keras, and tkinter. 
+- Class “nltk” contains a group of libraries which provide statistical processing for English Language and is commonly used for Natural Language Processing. It is used throughout all the developing stages except the model building stage and the GUI development stage. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are two critical methods within this class: “nltk.stem.wordnetlemmatizer” and “nltk.word_tokenize”. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. The first method converts a word into its lemma form, to group different words to be analyzed as a single item based on similar meaning, and then creating a pickle file to store the Python objects which we will use while predicting. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. The second method is used to cleanup and break the whole text into small parts, such as words. 
+- Class “json” is the data file which predicts the user inputs and gives responses. It is used for importing and loading data, preprocessing data, and getting random responses for the GUI. Json is also used implicitly throughout the program as the fundamental data in chatbot - conversation patterns. 
+- Class “pickle” is to make the data operations more efficient by removing object hierarchy when dumping our data or when loading our data from the dataset as it converts/treats the data as a single stream. Pickle is used throughout the stages except the data importing stage and the GUI development stage. 
+- Class “numpy” is to increase the efficiency of the operation of lists in python. It is used in 2 stages - “creating data for training and testing” and “predicting classes for GUI”. 
+- Class “keras'' is to build and import the deep neural network model for the trained data. It is used in the stages of building and importing the model to GUI. 
+- Class “tkinter” is used to develop a graphical user interface by powerful libraries and functions within the class. It is used to develop the final GUI.
+
+<br>
 
 ## Limitations of the program submitted: 
+
+-	The biggest limitation on the chatbot is that we don’t have a dataset that is large enough. We don’t have an enterprise-level development team and the dataset would be very limited and would only be applicable to certain situations.
+-	The chatbot cannot really “understand” what the user is actually saying since overall, it’s a running algorithm
+-	All responses are randomized, and no certain output is determined
+-	There is no self-learning function implemented so the chatbot would not understand, or learn the user’s behavior, answers, patterns etc.
+-	Fuzzy search is not supported so misspelling would lead to totally different answers.
+-	There isn’t a dictionary present for searching for synonyms so different words used might not be handled as expected.
+-	The dialogues are not interconnected, and the chatbot would not make connections between them
+-	Only one response is generated for each question
+
+-	Assume the user only enters valid (no spelling errors) and “understandable” (within the scope of dataset) or otherwise the chatbot would reply with a response saying it doesn’t understand your question
+
+<br>
+
 ## Team Members
 - **Khai Hung**: I'm 3th year comsci student who loves reading books !
 - **Anshul**: 
@@ -28,6 +53,9 @@ Link for live demo:
 - **Sirus**:
 - **Joseph**: I'm a 3rd year math student who loves snowboarding!
 
+<br>
+
 ## References
 
-Nothing yet
+Here is the link of an open-source program that helps us build our chatbot
+https://data-flair.training/blogs/python-chatbot-project/
