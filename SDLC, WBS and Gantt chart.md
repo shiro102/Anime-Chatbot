@@ -118,10 +118,10 @@ Possible Questions that you can ask from the chatbot
 29.	What are famous gacha games?
 30.	Tell me about Anime RPG
 31.	What are famous Anime RPG?
-32.  	That’s helpful
-33.  	See you later!
-34.  	Do you know about Jujutsu Kaisen?
-35.  	I like Jujutsu Kaisen!
+32. That’s helpful
+33. See you later!
+34. Do you know about Jujutsu Kaisen?
+35. I like Jujutsu Kaisen!
 
  
 
