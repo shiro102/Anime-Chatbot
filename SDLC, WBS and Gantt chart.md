@@ -85,7 +85,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 
 ## Sample Outputs: 
 
-Possible Questions that you can ask from the chatbot
+### Possible Questions that you can ask from the chatbot
 
 1. Good day
 2. What can you do?
@@ -125,7 +125,7 @@ Possible Questions that you can ask from the chatbot
 
  
 
-Text demo:
+### Text demo:
 
  
 
@@ -405,9 +405,9 @@ Turn-34 User : See you later
 	Anime bot : Bye! Come back again soon
 	
 	
-Here are Two unique cases where the chatbot doesn't work as intended:
+### Here are Two unique cases where the chatbot doesn't work as intended:
 
-Case 1:
+#### Case 1:
 
 Turn-1 User : Tell me about Jujutsu Kaisen
 
@@ -419,7 +419,7 @@ Turn-1 User : Tell me about Jujutsu Kaisen
 
 
 
-Case 2:
+#### Case 2:
 
 Turn-2 User:  Do you know about Jujutsu Kaisen?
 
