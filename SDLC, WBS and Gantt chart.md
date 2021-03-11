@@ -287,7 +287,7 @@ Turn-18 User : Who is your favorite Beserk character
 
  Turn-21 User : Do you know about Manhwa?
 
-        Anime bot : Manhwa are korean comic books just
+      Anime bot : Manhwa are korean comic books just
 	like manga from japanese culture. They are
 	very popular too
 
