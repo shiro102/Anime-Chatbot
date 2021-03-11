@@ -87,15 +87,15 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 
 Possible Questions that you can ask from the chatbot
 
-1.       Good day
-2.       What can you do?
-3.       Any anime to watch?
-4.       Top action anime?
-5.       What is the best adventure anime?
-6.       Any top-rated drama anime?
-7.       Best fantasy anime to recommend?
-8.       What are the top-rated comedy anime?
-9.       What is your favorite anime?
+1. Good day
+2. What can you do?
+3. Any anime to watch?
+4. Top action anime?
+5. What is the best adventure anime?
+6. Any top-rated drama anime?
+7. Best fantasy anime to recommend?
+8. What are the top-rated comedy anime?
+9. What is your favorite anime?
 10.	Tell me about Konosuba!
 11.	Who is your favorite character?
 12.	What anime are you watching recently?
