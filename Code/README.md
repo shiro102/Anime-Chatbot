@@ -1,4 +1,4 @@
-**This directory contains all the code needed for this project. **
+**This directory contains all the code needed for this project.**
 
 To compile the code, we run in terminal these 2 lines of codes - “python train_chatbot.py” and “python chatgui.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. 
 
