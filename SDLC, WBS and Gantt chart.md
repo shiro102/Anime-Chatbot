@@ -408,17 +408,23 @@ Here are Two unique cases where the chatbot doesn't work as intended:
 
 Case 1:
 
-Turn-1 User : Do you know about Jujutsu Kaisen?
+Turn-1 User : Tell me about Jujutsu Kaisen
 
-       Chatbot : I can talk about anime and their rankings. I can also talk about my favorite animes and discuss about them in detail.
+       Chatbot :  Anime bot : Gacha games are video games that
+	 implement the gacha mechanic. Similar to
+	 loot boxes in video games, gacha games
+	 induce players to spend in-game currency to
+	 receive a random virtual item.
 
 
 
 Case 2:
 
-Turn-2 User: I like Jujutsu Kaisen!
+Turn-2 User:  Do you know about Jujutsu Kaisen?
 
-       Chatbot : Owarimonogatari
+       Chatbot : I can talk about anything to everything
+       	 about otaku culture. I can also talk about my
+	 favourite part of otaku culture.
        
  ![image](https://user-images.githubusercontent.com/31243905/110843456-51ab8080-82ce-11eb-9743-b745f19f0e4e.png)
 
