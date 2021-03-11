@@ -402,3 +402,25 @@ Turn-33 User : That's helpful!
 Turn-34 User : See you later
 
 	Anime bot : Bye! Come back again soon
+	
+	
+Here are Two unique cases where the chatbot doesn't work as intended:
+
+Case 1:
+
+Turn-1 User : Do you know about Jujutsu Kaisen?
+
+       Chatbot : I can talk about anime and their rankings. I can also talk about my favorite animes and discuss about them in detail.
+
+
+
+Case 2:
+
+Turn-2 User: I like Jujutsu Kaisen!
+
+       Chatbot : Owarimonogatari
+       
+ ![image](https://user-images.githubusercontent.com/31243905/110843456-51ab8080-82ce-11eb-9743-b745f19f0e4e.png)
+
+
+
