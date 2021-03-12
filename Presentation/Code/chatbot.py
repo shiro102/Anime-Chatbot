@@ -1,0 +1,137 @@
+import nltk
+from nltk.stem import WordNetLemmatizer
+l = WordNetLemmatizer()
+import pickle
+import numpy as np
+
+from keras.models import load_model
+model = load_model('model.h')
+import json
+import random
+
+#Load the intents
+intents = json.loads(open('intents.json').read())
+
+#Load the words and classes files using pickle
+words = pickle.load(open('words.pkl','rb'))
+classes = pickle.load(open('classes.pkl','rb'))
+
+
+def lemma(s):
+    # Make an array by tokenizing the sentence
+    array = nltk.word_tokenize(s)
+    newArray = []
+    # Lemmatize the words in the array
+    for word in array:
+        newArray.append(l.lemmatize(word.lower()))
+    return newArray
+
+# Return array of 0 or 1 which represents if a word exists or not
+
+def word_bag(s, words):
+    # Lemmatize the input sentence
+    array = lemma(s)
+    # empty array of 0
+    bag = [0]*len(words)  
+    for s in array:
+        for i,w in enumerate(words):
+            if w == s: 
+                # assign 1 if current word exists
+                bag[i] = 1
+                
+    return(np.array(bag))
+
+def predict(s, model):
+    # filter out predictions below a threshold
+    p = word_bag(s, words)
+    res = model.predict(np.array([p]))[0]
+    thresh = 0.25
+    results = []
+    #generate an array of probabilities
+    for i,r in enumerate(res):
+        if r>thresh:
+           results.append([i,r])
+    # sort in descending order of probabilities
+    results.sort(key=lambda x: x[1], reverse=True)
+    return_list = []
+    for r in results:
+        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
+    return return_list
+
+def getResponse(ints, intents_json):
+    tag = ints[0]['intent']
+    list_intents = intents_json['intents']
+    for i in list_intents:
+        if(i['tag']== tag):
+            result = random.choice(i['responses'])
+            break
+    return result
+
+def gen_output(msg):
+    ints = predict(msg, model)
+    response = getResponse(ints, intents)
+    return response
+
+
+#Creating UI with tkinter
+from tkinter import *
+from PIL import ImageTk, Image
+
+
+
+def send():
+    #Read the message from user and clear the message window
+    msg = EntryBox.get("1.0",'end-1c').strip()
+    EntryBox.delete("0.0",END)
+
+    if msg != '':
+        ChatLog.config(state=NORMAL)
+        
+        ChatLog.image_create(END, image = userimg)
+        ChatLog.insert(END, " : " + msg + '\n\n')
+        ChatLog.config(foreground="#442265", font=("Verdana", 12 ))
+        ChatLog.tag_configure("center", justify='center')
+        res = gen_output(msg)
+        ChatLog.image_create(END, image = botimg)
+        ChatLog.insert(END, " : " + res + '\n\n')
+            
+        ChatLog.config(state=DISABLED)
+        ChatLog.yview(END)
+ 
+
+
+base = Tk()
+
+#Loading images and generating photo objects
+image1 = Image. open("botpic.jpg")
+image1 = image1.resize((25, 25), Image. ANTIALIAS)
+image2 = Image. open("user-24.gif")
+image2 = image2.resize((25, 25), Image. ANTIALIAS)
+botimg = ImageTk.PhotoImage(image1)
+userimg = ImageTk.PhotoImage(image2)
+
+#Changing window image
+base.tk.call('wm', 'iconphoto', base._w,botimg )
+base.title("Anime Bot")
+base.geometry("400x500")
+base.resizable(width=TRUE, height=TRUE)
+
+#Chat Window
+ChatLog = Text(base, bd=2,relief = "ridge", bg="beige", height="100", width="50", font="Arial")
+ChatLog.config(state=NORMAL)
+
+#Send Button
+SendButton = Button(base, font=("Verdana",12,'bold','italic'), text="Send", width="12", height=5,
+                    bd=0, bg="#030bfc", activebackground="#7373ff",fg='#ffffff',
+                    command= send )
+
+#Message Window
+EntryBox = Text(base, bd=2,relief = "ridge", bg="#e6e6e6",width="29", height="5", font="Arial")
+
+#Aranging the objects
+ChatLog.place(x=6,y=6, height=386, width=388)
+EntryBox.place(x=6, y=401, height=90, width=265)
+SendButton.place(x=290, y=401, height=90, width = 104)
+
+
+base.mainloop()

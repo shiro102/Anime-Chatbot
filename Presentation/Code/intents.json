@@ -1,0 +1,172 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","greeting"],
+         "responses": ["Hello there!", "Hey wassup!", "Hi there, want to chat?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["About you", "What you can do?", "What can you talk about?", "options"],
+         "responses": ["I can talk about anything to everything about otaku culture. I can also talk about my favorite parts of otaku culture."],
+         "context": [""]
+        },
+        {"tag": "Action anime",
+         "patterns": ["Top action anime?", "Best action anime?"],
+         "responses": ["Top 5 Action Animes:\n 1) Fullmetal Alchemist: Brotherhood\n 2) Attack on Titans\n 3) Gintama\n 4) Hunter x Hunter\n 5) Code Geass"],
+         "context": [""]
+        },
+        {"tag": "Adventure anime",
+         "patterns": ["Top-rated adventure anime?", "Best adventure anime?"],
+         "responses": ["Top 5 Adventure Animes:\n 1) Cowboy Bebop\n 2) Spirited Away\n 3) Mushishi\n 4) Made in Abyss\n 5) Vinland Saga"],
+         "context": [""]
+        },
+         {"tag": "Drama anime",
+         "patterns": ["Top-rated drama anime?", "Best Drama anime?"],
+         "responses": ["Top 5 Drama Animes:\n 1) March Comes In Like A Lion\n 2) A Silent Voice\n 3) Clannad\n 4) Your Name.\n 5) Haikyuu!"],
+         "context": [""]
+        },
+        {"tag": "Fantasy anime",
+         "patterns": ["Top-rated Fantasy anime?", "Best Fantasy anime?", "fantasy"],
+         "responses":["Top 5 Fantasy Animes:\n 1) Fate/Stay Night \n 2) RE:Zero\n 3) One Piece\n 4) Weathering With You\n 5) Mushoku Tensei: Jobless Reincarnation"],
+         "context": [""]
+        },
+        {"tag": "Comedy anime",
+         "patterns": ["Top-rated Comedy anime?", "Best Comedy anime?"],
+         "responses":["Top 5 Comedy Animes:\n 1) Owarimonogatari \n 2) Grand Blue\n 3) Konosuba\n 4) Kaguya-Sama: Love is war\n 5) Horimiya"],
+         "context": [""]
+        },
+        {"tag": "Favorite anime",
+         "patterns": ["What is your favorite anime?", "What anime you like the most?", "Favorite anime","What anime do you love?"],
+         "responses":["My favorite anime is Konosuba", "I absolutely love Konosuba", "Konosuba is the best anime!"],
+         "context": [""]
+        },
+        {"tag": "Describe Konosuba",
+         "patterns": ["Tell me about Konosuba!", "Talk about favorite anime", "Describe Konosuba","Describe favorite anime","Konosuba"],
+         "responses":["Plot for Konosuba: Story about a High\n school student who is reincarnated in a\n new world but his pathetic luck follows him\n even there. Given the task of defeating the\n demon lord with his incompetent companions\n Will our protagonist be able to live the lavish\n life he dreamt of? "],
+         "context": [""]
+        },
+        {"tag": "Character Konosuba",
+         "patterns": ["Who is your favorite character in Konosuba", "Most interesting character in Konosuba", "Liked character in Konosuba", "Which charater in Konosuba do you love?", "Tell about one of the character in Konosuba"],
+         "responses":["I like Kazuma, the main protagantist of \nKonosuba, because he is really funny!"],
+         "context": [""]
+        },
+        {"tag": "Recent anime",
+         "patterns": ["Animes that you watched recently", "Current animes", "What anime are you watching right now", "Recent Anime"],
+         "responses":["Anime I am watching nowadays:\n 1) Attack on Titans Final Season\n 2) Dr. Stone: Stone Wars\n 3) Horimiya\n 4) Re:Zero Season 2 Part 2\n 5) Mushoku Tensei"],
+         "context": [""]
+        },
+        {"tag": "Recommend anime",
+         "patterns": ["Recommend me anime","Random anime","Any recommendations of anime?","Good recommendations of anime","Any anime to watch?","What should I watch"],
+         "responses":["Fullmetal Alchemist: Brotherhood","Shingeki no Kyojin: The Final Season", "Shingeki no Kyojin Season 3 Part 2","Steins;Gate", "Gintama","Hunter x Hunter","Ginga Eiyuu Densetsu", "Koe no Katachi","Kimi no Na wa","Owarimonogatari"],
+         "context": [""]
+        },
+        {"tag": "About Manga",
+         "patterns": ["Do you know about manga?", "Do you read manga?","Have you heard of manga?", "Can you tell me about manga?","What is a manga?"],
+         "responses":["Oh Yes! I love mangas too, they are\njust like comic books but japanese style.\nMany animes are adapted from manga."],
+         "context": [""]
+        },
+        {"tag": "Top Manga",
+         "patterns": ["Top-rated manga?", "Best manga?", "Good manga to read?","Top manga", "Popular Manga"],
+         "responses":["Top 5 Mangas:\n 1) Beserk \n 2) JoJo's Bizarre Adventure\n 3) One Piece\n 4) Vagabond\n 5) Monster"],
+         "context": [""]
+        },
+        {"tag": "Favorite manga",
+         "patterns": ["What is your favorite manga?", "What manga you like the most?", "Favorite manga","What manga do you love?"],
+         "responses":["My favorite manga is Beserk", "I absolutely love Beserk", "Beserk is the best manga!"],
+         "context": [""]
+        },
+        {"tag": "Describe Beserk",
+         "patterns": ["Tell me about Beserk!", "Talk about favorite manga", "Describe Beserk","Describe favorite Beserk","Beserk"],
+         "responses":["Plot for Beserk: Former mercenary,after\na tumultuous childhood, finally finds someone\nhe respects and believes he can trust, only to\nhave everything fall apart when this person\ntakes away everything important to him. Now\nmarked for death he is relentlessly pursued\nby demonic beings. "],
+         "context": [""]
+        },
+        {"tag": "Character Beserk",
+         "patterns": ["Who is your favorite Beserk character", "Most interesting character in Beserk", "Liked character in Beserk", "Which charater Beserk do you love?", "Tell about one of the character in Beserk","Character Beserk"],
+         "responses":["I like Guts, the main protagantist of\nBeserk, because he has a will of iron!"],
+         "context": [""]
+        },
+        {"tag": "Recent manga",
+         "patterns": ["Manga that you read recently", "Current mangas", "What manga are you reading right now", "Recent manga","What are you reading?"],
+         "responses":["Mang I am reading nowadays:\n 1) Tokyo Ghoul\n 2) Bleach\n 3) Fairy Tail\n 4) Solo Leveling\n 5) Tower of God"],
+         "context": [""]
+        },
+        {"tag": "Recommend manga",
+         "patterns": ["Recommend me manga","Random manga","Any recommendations for manga?","Good recommendations for manga","Any manga to watch?","What should I read", "What to read"],
+         "responses":["One Piece","Berserk", "One Punch-Man","Tokyo Ghoul", "Nisekoi","Solo Leveling","Akame ga Kill!", "Noragami","Dragon Ball","The God of High School"],
+         "context": [""]
+        },
+        {"tag": "About Manhwa",
+         "patterns": ["Do you know about Manhwa?", "What is Manhwa?","Have you heard of manhwa?", "Can you tell me about manhwa?"],
+         "responses":["Manhwa are korean comic books just\nlike manga from japanese culture. They are\nvery popular too"],
+         "context": [""]
+        },
+        {"tag": "Famous Manhwa",
+         "patterns": ["What are famous Manhwa?", "List few manhwa", "Famous manhwa","Popular manhwa"],
+         "responses":["Famous Manhwa:\n 1) Solo Leveling \n 2) Tower of God\n 3) God of Highschool\n 4) Noblesse\n 5) Sweet Home"],
+         "context": [""]
+        },
+        {"tag": "Otaku Culture",
+         "patterns": ["What is Otaku culture?", "About Otaku Culute", "Describe Otaku Culture","Otaku Culture"],
+         "responses":["Otaku is a string of Japanese culture\nwhere specifically people in foreign countries\nhave a passion for certain Japanese things\nsuch as manga, anime, video games, idols\n and anime conventions. "],
+         "context": [""]
+        },
+        {"tag": "Anime Convention",
+         "patterns": ["What is anime convention?", "About anime convention", "Describe anime convention","Anime Convention"],
+         "responses":["An anime convention is an event or\ngathering with a primary focus on anime,\nmanga and Japanese culture. Commonly,\nanime conventions are multi-day events\nhosted at convention centers, hotels or\ncollege campuses."],
+         "context": [""]
+        },
+        {"tag": "Famous Conventions",
+         "patterns": ["What are famous conventions?", "List few conventions", "Famous conventions","Popular convetions"],
+         "responses":["Famous Conventions:\n 1) Comiket \n 2) Jump Festa\n 3) Tokyo Toy Show\n 4) AnimeJapan\n 5) World Cosplay Summit"],
+         "context": [""]
+        },
+        {"tag": "Bucket List Conventions",
+         "patterns": ["What convention do you want to vist?", "Vist convention", "Attend Convetion","Convention you want to go"],
+         "responses":["I really really want to visit Jump Festa,\n to witness the glory of shounen."],
+         "context": [""]
+        },
+        {"tag": "About Jump Festa",
+         "patterns": ["Tell me about Jump Festa!", "Talk about Jump Festa", "Describe Jump Festa","Jump Festa"],
+         "responses":["Jump Festa is sponsored by Shueisha\nInc. publisher of the Jump manga anthologies\nwhose roster includes One Piece, Dragon Ball,\nNaruto, Gintama, Haikyuu!!, Assassination\nClassroomand many more. The event is a\nprime forum for introducing new movies,\nmanga,games and merchandise. Keep an\neye out for plenty of cosplay as well!"],
+         "context": [""]
+        },
+        {"tag": "Video Games",
+         "patterns": ["Tell me about Video games", "Talk about Video games", "Describe Video Games","Video games","Video games in otaku culture"],
+         "responses":["Video games are a very important part\nof otaku culture, in which the most famous\ncategories are Gacha games and Anime\nRPGs."],
+         "context": [""]
+        },
+        {"tag": "Gacha",
+         "patterns": ["Tell me about Gacha", "Talk about Gacha", "Describe Gacha","Gacha", "What is Gacha"],
+         "responses":["Gacha games are video games that\nimplement the gacha mechanic. Similar to\nloot boxes in video games, gacha games\ninduce players to spend in-game currency to\nreceive a random virtual item."],
+         "context": [""]
+        },
+        {"tag": "Famous Gacha",
+         "patterns": ["What are famous gacha games?", "List few gacha games", "Famous gacha games","Popular gacha games"],
+         "responses":["Popular Gacha Games:1) Genshin Impact \n2) Dragon Ball Legends \n3) Dragon Ball Dokkan Battle \n4) Fate/Stay Night \n5) Runterra"],
+         "context": [""]
+        },
+        {"tag": "RPG",
+         "patterns": ["Tell me about Anime RPG", "Talk about Anime RPG", "Describe RPG","Anime RPG", "What is Anime RPG"],
+         "responses":["Anime RPGs are video games that\nallows players to take control of their favorite\ncharacter from an anime and live their story.\nIt ranges from open world games to hack &\n slash games."],
+         "context": [""]
+        },
+        {"tag": "Famous RPG",
+         "patterns": ["What are famous Anime RPG?", "List few Anime RPGs", "Famous Anime RPGs","Popular Anime RPG"],
+         "responses":["Popular Anime RPG: 1) Person 5:Strikers \n2) Dragon Ball: Kakarot \n3) Final Fantasy 15 \n4) Dragon Quest XI \n5) Dragon Ball: Xenoverse 2"],
+         "context": [""]
+        }]
+}
