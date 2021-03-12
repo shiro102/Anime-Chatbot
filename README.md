@@ -32,7 +32,7 @@ There are 6 classes used in the code: nltk, json, pickle, numpy, keras, and tkin
 
 <br>
 
-## Team Members and mick name used in the project:
+## Team Members and nick name used in the project:
 - **Khai Hung Luong (Hung)**: I'm 3rd year comsci student who loves reading books !
 - **Anshul Dhariwal (Anshul)**: I am 3rd year COSC student and loves anything that is interesting to do!!
 - **Jayant Puri (Jayant)**: I'm a 3rd year COSC student who loves watching anime!
