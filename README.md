@@ -3,7 +3,7 @@
 Link for live demo:
 =======
 ## Describe your topic/interest (context of the chatbot, who will use it 
-In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. The target users are anime lovers who would love to talk about anime and know more about it. The topic of the conversation is about the general information and personal preference of anime.
+In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. The target users are anime and manga lovers who would love to talk about them and know more about it. The topic of the conversation is about the general information and personal preference of anime.
 
 <br>
 
@@ -11,7 +11,7 @@ In this project, we developed an interactive conversational agent that responds 
 
 ### **How to run it:** 
 
-To compile the code, we run in terminal these 2 lines of codes - “python train_chatbot.py” and “python chatgui.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. 
+To compile the code, we run in terminal these 2 lines of codes - “python train.py” and “python chatbot.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. 
 ### **Stages of development:**
 
 There are five stages of the development for the code: data importing and loading, data preprocessing, data training and testing, model building, and GUI developing.
