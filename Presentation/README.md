@@ -2,7 +2,7 @@
 
 Link for live demo:
 =======
-## Describe your topic/interest (context of the chatbot, who will use it 
+## Describe your topic/interest (context of the chatbot, who will use it) 
 In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. The target users are anime lovers who would love to talk about anime and know more about it. The topic of the conversation is about the general information and personal preference of anime.
 
 <br>
