@@ -36,7 +36,7 @@ There are 6 classes used in the code: nltk, json, pickle, numpy, keras, and tkin
 - **Anshul**: I am 3rd year COSC student and loves anything that is interesting to do!!
 - **Jayant Puri**: I'm a 3rd year COSC student who loves watching anime!
 - **Sirus**: I'm a 3rd year COSC student who loves taking photos!
-- **Joseph**: I'm a 3rd year math student who loves snowboarding!
+- **Shaohua Jiang**: I'm a 3rd year math student who loves snowboarding!
 
 <br>
 
