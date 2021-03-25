@@ -2,6 +2,7 @@
 
 Link for live demo:
 https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view
+<br><br>Github URL: <br>https://github.com/shiro102/Chat-bot-team-20
 =======
 ## Describe your topic/interest (context of the chatbot, who will use it, etc. )
 In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. The target users are anime and manga lovers who would love to talk about them and know more about it. The topic of the conversation is about the general information and personal preference of anime.
@@ -19,16 +20,72 @@ There are five stages of the development for the code: data importing and loadin
 
 ### **How the classes are organized:**
 
-There are 6 classes used in the code: nltk, json, pickle, numpy, keras, and tkinter. 
+There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tkinter, Wikipedia, Stanford Corenlp, Sentimental Analyser, GUI, Home, and Recent.
+
 - Class “nltk” contains a group of libraries which provide statistical processing for English Language and is commonly used for Natural Language Processing. It is used throughout all the developing stages except the model building stage and the GUI development stage. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are two critical methods within this class: “nltk.stem.wordnetlemmatizer” and “nltk.word_tokenize”. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. The first method converts a word into its lemma form, to group different words to be analyzed as a single item based on similar meaning, and then creating a pickle file to store the Python objects which we will use while predicting. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. The second method is used to cleanup and break the whole text into small parts, such as words. 
-- Class “json” is the data file which predicts the user inputs and gives responses. It is used for importing and loading data, preprocessing data, and getting random responses for the GUI. Json is also used implicitly throughout the program as the fundamental data in chatbot - conversation patterns. 
-- Class “pickle” is to make the data operations more efficient by removing object hierarchy when dumping our data or when loading our data from the dataset as it converts/treats the data as a single stream. Pickle is used throughout the stages except the data importing stage and the GUI development stage. 
-- Class “numpy” is to increase the efficiency of the operation of lists in python. It is used in 2 stages - “creating data for training and testing” and “predicting classes for GUI”. 
+
+- There are 4 critical methods within this class: “nltk.stem.wordnetlemmatizer”, “nltk.word_tokenize”, “nltk.pos_tag” (instead of Stanfordnlp’s POS tagging to simplify the implementation) and “nltk.corpus” 
+
+        1. The first method, “nltk.stem.wordnetlemmatizer”, converts a word into its lemma form, groups different words to be analyzed as a single item based on similar meaning, and then creates a pickle file to store the Python objects which we will use while predicting. 
+
+        2. The second method, “nltk.word_tokenize”, is used to cleanup and break the whole text into small parts, such as words.
+
+        3. The third method, “nltk.pos_tag”, tags every word as “Proper Nouns”, “Verb”, “Adjectives” etc. It is used for one of the new features we added - POS tagging - and it works in the similar pattern as Stanford Corenlp’s POS tagging. We will explain Stanford Corenlp later.
+
+        4. The fourth method, “nltk.corpus”, is used to access “wordnet” which helps us to implement a new feature that we added to this code - synonym recognition. 
+
+- Class “json” is the data file which predicts the user inputs and gives responses. It is used for importing and loading data, preprocessing data, and getting random responses for the GUI. Json is also used implicitly throughout the program as the fundamental data in chatbot - conversation patterns.
+
+- Class “pickle” is to make the data operations more efficient by removing object hierarchy when dumping our data or when loading our data from the dataset as it converts/treats the data as a single stream. Pickle is used throughout the stages except the data importing stage and the GUI development stage. It was also used to save a model for one of the new features that we added to this code - sentiment analysis. 
+
+- Class “numpy” is to increase the efficiency of the operation of lists in python. It is used in 2 stages - “creating data for training and testing” and “predicting classes for GUI”.
+
 - Class “keras'' is to build and import the deep neural network model for the trained data. It is used in the stages of building and importing the model to GUI. 
+
 - Class “tkinter” is used to develop a graphical user interface by powerful libraries and functions within the class. It is used to develop the final GUI.
+
+- Class “Wikipedia” is used to initiate online searches on Wikipedia in real time. It is an additional feature for our chatbot that functions when the chatbot doesn’t recognize a “Proper Noun” that is found by one of the new features we added - POS tagging.
+
+- Class “Stanford Corenlp” is a service for natural language processing. Instead of creating a wrapper ourselves, we used a wrapper for this class called stanfordcorenlp. The link is put under the reference list at the end of the README file.
+
+- “Sentimental Analyser” is a different python file created to help us with Sentiment Analysis. We create a naïve bayes model to decide between “Negative” and “Positive” Sentences. This model is used to analyze how users react to it.
+
+- “GUI” is a class that is used to initialize everything related to our Graphical User Interface such as images, pages, etc.
+
+- Class “Home” is the class for our home page in the Graphical User Interface and it contains all features present on that page.
+
+- Class “Recent”, is used to record and store recent conversation dialogue in our recent conversation page in the Graphical User Interface. It contains all features present on that page.
+
+<br>
+
+## Features: 
+
+- Synonym recognition
+
+    - Function: It identifies synonyms within sentences and give corresponding answers. It allows users to make inputs more diversified and give correct answers at the same time
+
+    - Snippet: ![Synonym Recognition](https://media.discordapp.net/attachments/798946362313408572/823878037149319248/unknown.png?width=1276&height=718)
+
+- Sentiment analysis
+
+    - Function: It recognizes user input that contains positive, negative, or neutral emotions and give corresponding answers without us having to code. It makes dialogue turns more lively and realistic.
+
+    - Snippet: ![Sentiment Analysis](https://media.discordapp.net/attachments/798946362313408572/823878297989546004/unknown.png)
+
+- POS tagging
+
+    - Function: It gets the information about Proper Nouns that our bot doesn't know and searching them real time on wikipedia. 
+
+
+    - Meaning: With this feature, our chatbot is able to answer topics that are outside of our designed topic and the users might get more satisfaction throughout conversations.
+
+    - Snippet: ![POS Tagging](https://media.discordapp.net/attachments/798946362313408572/823878799355674624/unknown.png)
+
+- Recent Conversation Page
+
+    - Function: It saves dialogue information everytime our users say "bye" or close the app. With this feature, our users are able to check the dialogue history which is convenient.
+
+    - Snippet: ![Recent Conversation Page](https://media.discordapp.net/attachments/798946362313408572/823879216525344768/unknown.png)
 
 <br>
 
@@ -45,3 +102,6 @@ There are 6 classes used in the code: nltk, json, pickle, numpy, keras, and tkin
 
 Here is the link of an open-source program that helps us build our chatbot
 https://data-flair.training/blogs/python-chatbot-project/
+
+Here is the link of stanfordcorenlp which is a Python wrapper for Stanford CoreNLP.
+https://github.com/Lynten/stanford-corenlp
