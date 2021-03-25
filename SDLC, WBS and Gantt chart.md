@@ -62,7 +62,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 ## Old Work Breakdown Structure (WBS):
 ![WBS](https://cdn.discordapp.com/attachments/798946362313408572/817114483172442142/Final_1.jpg)
 ## New Work Breakdown Structure (WBS):
-![WBS](https://https://cdn.discordapp.com/attachments/798946362313408572/824781825368129556/Final_1.jpg)
+![WBS](https://cdn.discordapp.com/attachments/798946362313408572/824781825368129556/Final_1.jpg)
 
 ## Old Gantt chart: 
 ![Gantt](https://cdn.discordapp.com/attachments/798946362313408572/818986258076401684/Gannt_Chart_Final.png)
