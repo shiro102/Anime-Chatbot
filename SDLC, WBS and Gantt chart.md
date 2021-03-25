@@ -67,7 +67,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 ## Old Gantt chart: 
 ![Gantt](https://cdn.discordapp.com/attachments/798946362313408572/818986258076401684/Gannt_Chart_Final.png)
 ## New Gantt chart: 
-![Gantt](https://cdn.discordapp.com/attachments/798946362313408572/824781825368129556/Final_1.jpg)
+![Gantt](https://cdn.discordapp.com/attachments/798946362313408572/824783910701105232/Gannt_Chart_Final.png)
 
 <br>
 
