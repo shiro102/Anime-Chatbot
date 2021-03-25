@@ -46,3 +46,6 @@ There are 6 classes used in the code: nltk, json, pickle, numpy, keras, and tkin
 
 Here is the link of an open-source program that helps us build our chatbot
 https://data-flair.training/blogs/python-chatbot-project/
+
+Here is the link of stanfordcorenlp which is a Python wrapper for Stanford CoreNLP.
+https://github.com/Lynten/stanford-corenlp
