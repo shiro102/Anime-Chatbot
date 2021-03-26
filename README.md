@@ -92,10 +92,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
 - POS tagging
 
-    - Function: It gets the information about Proper Nouns that our bot doesn't know and searching them real time on wikipedia. 
-
-
-    - Meaning: With this feature, our chatbot is able to answer topics that are outside of our designed topic and the users might get more satisfaction throughout conversations.
+    - Function: It gets the information about Proper Nouns that our bot doesn't know and searching them real time on wikipedia. With this feature, our chatbot is able to answer topics that are outside of our designed topic and the users might get more satisfaction throughout conversations.
 
     - Snippet: ![POS Tagging](https://media.discordapp.net/attachments/798946362313408572/823878799355674624/unknown.png)
 
