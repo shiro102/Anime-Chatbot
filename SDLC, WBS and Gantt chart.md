@@ -41,6 +41,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
   		ii) Implement the user interface. 
   		iii) Implement back-end (Training the chatbot)	
               	 a) Choosing libraries
+		 b) Implement language toolkits
   		iv) Integrate the front end and back end.
   
     4) Testing:
