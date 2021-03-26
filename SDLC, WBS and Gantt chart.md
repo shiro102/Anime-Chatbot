@@ -74,12 +74,12 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 ## Limitations of the program submitted: 
 
 -	The biggest limitation on the chatbot is that we don’t have a dataset that is large enough. We don’t have an enterprise-level development team and the dataset would be very limited and would only be applicable to certain situations.
--	The chatbot cannot really “understand” what the user is actually saying since overall, it’s a running algorithm
--	All responses are randomized, and no certain output is determined
+-	The chatbot cannot really “understand” what the user is actually saying since overall, it’s a running algorithm.
+-	All responses are randomized, and no certain output is determined.
 -	There is no self-learning function implemented so the chatbot would not understand, or learn the user’s behavior, answers, patterns etc.
 -	Fuzzy search is not supported so misspelling would lead to totally different answers.
--	The dialogues are not interconnected, and the chatbot would not make connections between them
--	Assume the user only enters valid (no spelling errors) and “understandable” (within the scope of dataset) or otherwise the chatbot would reply with a response saying it doesn’t understand your question
+-	The dialogues are not interconnected, and the chatbot would not make connections between them.
+-	Assume the user only enters valid (no spelling errors) and “understandable” (within the scope of dataset) or otherwise the chatbot would reply with a response saying it doesn't understand your questions and would try to search an unknown Proper noun on wikipedia.
 
 <br>
 
