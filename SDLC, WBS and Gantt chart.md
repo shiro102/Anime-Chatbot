@@ -79,7 +79,6 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 -	There is no self-learning function implemented so the chatbot would not understand, or learn the user’s behavior, answers, patterns etc.
 -	Fuzzy search is not supported so misspelling would lead to totally different answers.
 -	The dialogues are not interconnected, and the chatbot would not make connections between them
--	Only one response is generated for each question
 -	Assume the user only enters valid (no spelling errors) and “understandable” (within the scope of dataset) or otherwise the chatbot would reply with a response saying it doesn’t understand your question
 
 <br>
