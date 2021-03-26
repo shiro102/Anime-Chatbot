@@ -16,7 +16,7 @@
         },
         {"tag": "noanswer",
          "patterns": [""],
-         "responses": ["Hmm I don't about ' % '", "' % ', interesting I would have to search for it", "I haven't heard of ' % '", "Thank you for providing an suggestion I will add ' % ' in my database", "Well, I don't know about ' % ', sorry about that!"],
+         "responses": ["Hmm I don't about ' % '", "' % ', interesting I would have to search for it", "I haven't heard of ' % '", "Thank you for providing a suggestion I will add ' % ' in my database", "Well, I don't know about ' % ', sorry about that!"],
          "context": [""]
         },
         {"tag": "options",
