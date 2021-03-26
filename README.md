@@ -82,7 +82,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
     - Function: It identifies synonyms within sentences and give corresponding answers. It allows users to make inputs more diversified and give correct answers at the same time
 
-    - Snippet: ![Synonym Recognition](https://media.discordapp.net/attachments/798946362313408572/823878037149319248/unknown.png?width=1276&height=718)
+    - Snippet: ![Synonym Recognition](https://media.discordapp.net/attachments/798946362313408572/825077522916048986/Screen_Shot_2021-03-26_at_11.42.51_AM.png)
 
 - Sentiment analysis
 
