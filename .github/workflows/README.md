@@ -17,9 +17,9 @@ The automated testing process will be triggered everytime something is pushed to
 
 1. lemma(s)
    - Test1: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: ""
+      - expected output: []
+      - actual output: []
 
    - Test2: 
       - input: 
@@ -27,41 +27,41 @@ The automated testing process will be triggered everytime something is pushed to
       - actual output: 
 
    - Test3: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: "@elonmusk how are you doing w/ ur rocket & spaceship? Can I buy it for ~$100 +- 5? (btw here's my email hello@gmail.com) ^^"
+      - expected output: ['@', 'elonmusk', 'how', 'are', 'you', 'doing', 'w/', 'ur', 'rocket', '&', 'spaceship', '?', 'can', 'i', 'buy', 'it', 'for', '~', '$', '100', '+-', '5', '?', '(', 'btw', 'here', "'s", 'my', 'email', 'hello', '@', 'gmail.com', ')', '^^'] 
+      - actual output: ['@', 'elonmusk', 'how', 'are', 'you', 'doing', 'w/', 'ur', 'rocket', '&', 'spaceship', '?', 'can', 'i', 'buy', 'it', 'for', '~', '$', '100', '+-', '5', '?', '(', 'btw', 'here', "'s", 'my', 'email', 'hello', '@', 'gmail.com', ')', '^^'] 
 
 2. word_bag(s, words)
 
    - Test1: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: word_bag("", ["hello","how","are","you"])
+      - expected output: [0,0,0,0]
+      - actual output: [0,0,0,0]
 
    - Test2: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: word_bag("hello how are you?", [])
+      - expected output: [0]
+      - actual output: [0]
 
    - Test3: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: word_bag("", [])
+      - expected output: [1]
+      - actual output: [1]
 
 3. remove_noise(tweet_tokens, stop_words = ())
 
    - Test1: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: ""
+      - expected output: []
+      - actual output: []
 
    - Test2: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: "!asda123$#@"
+      - expected output: ['a', 's', 'd', 'a', '1', '2', '3']
+      - actual output: ['a', 's', 'd', 'a', '1', '2', '3']
 
    - Test3: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: "你好，我正%在上C#OSC3!10"
+      - expected output: ['你', '好', '，', '我', '正', '在', '上', 'c', 'o', 's', 'c', '3', '1', '0']
+      - actual output: ['你', '好', '，', '我', '正', '在', '上', 'c', 'o', 's', 'c', '3', '1', '0']
 
