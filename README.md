@@ -5,7 +5,8 @@ https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view
 <br><br>Github URL: <br>https://github.com/shiro102/Chat-bot-team-20
 =======
 ## Describe your topic/interest (context of the chatbot, who will use it, etc. )
-In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. The target users are anime and manga lovers who would love to talk about them and know more about it. The topic of the conversation is about the general information and personal preference of anime.
+
+In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. There are 2 types of target users. The first type of target users includes anime and manga lovers who would love to talk about them and know more about it. The first type of target users includes anyone who are interested in Japanese culture. There are 2 types of topics as well. The first type of topic of the conversation is about the general information and personal preference of anime. The second type of topic of the conversation is about the general information of Japan such as people, religion, food, samurai and so on.
 
 <br>
 
