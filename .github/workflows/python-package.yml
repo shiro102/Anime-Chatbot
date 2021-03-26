@@ -30,6 +30,7 @@ jobs:
         python -m pip install nltk
         python -m pip install stanfordcorenlp
         python -m pip install numpy
+        python -m pip install tensorflow
         python -m pip install pickle5
         python -m pip install Keras
         python -m pip install wikipedia
