@@ -12,3 +12,56 @@ The automated testing process will be triggered everytime something is pushed to
     
    - Next, the file lints with flake8 by running flake8 by some parameters so that the test will stop the  build if there are syntax errors or editing mistakes and treats all errors as warnings.
    - In the end, the automated testing runs all Python testing file to test the code.
+
+## ***Test Cases***
+
+1. lemma(s)
+   - Test1: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+   - Test2: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+   - Test3: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+2. word_bag(s, words)
+
+   - Test1: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+   - Test2: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+   - Test3: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+3. remove_noise(tweet_tokens, stop_words = ())
+
+   - Test1: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+   - Test2: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
+   - Test3: 
+      - input: 
+      - expected output: 
+      - actual output: 
+
