@@ -47,7 +47,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
   
     4) Testing:
   		i) Testing frequently asked questions and ambiguous questions.
-  		ii) Testing and debug language toolkits.
+  		ii) Testing and debugging language toolkits.
   		iii) Testing the interactive elements
   		iv) Record errors and fix them.
 			a) Debugging
