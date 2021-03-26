@@ -6,6 +6,8 @@ Created on Wed Mar 24 22:31:05 2021
 """
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 from nltk.tag import pos_tag
 import re, string
 from nltk.stem import WordNetLemmatizer
