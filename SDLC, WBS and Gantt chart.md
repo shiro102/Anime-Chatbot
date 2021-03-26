@@ -23,41 +23,42 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 <br>
 
 ### Process: 
-     1) Analyze requirements:
+     1) Analyze requirements and Create Tasks:
  	 	i) Choosing a platform to publish the application
-    	           a) Creating github account for each team member
-    	           b) Creating  team github account
+			a) Creating github account for each team member
+			b) Creating  team github account
   		ii) Choose a software development cycle
   	 	iii) Creating WBS and Gantt charts.
+		iv) Create Level-0 and Level-1 Data Flow Diagrams (DFDs)
   
     2) Establish design:
   		i) Choose a language and its corresponding IDE
- 		ii) Choose an agent chatbot.
- 		iii) choose a topic for chatbot
-  		iv) design the user interface for chatbot
+ 		ii) Choose two agents for the chatbot.
+ 		iii) Choose two topic for the chatbot
+  		iv) Design the user interface for the chatbot
 
     3) Implementing design:
-  		i) Build the dataset for chatbot 
+  		i) Build the dataset for the chatbot
   		ii) Implement the user interface. 
   		iii) Implement back-end (Training the chatbot)	
-              	 a) Choosing libraries
-		 b) Implement language toolkits
+			a) Choose libraries
+			b) Implement language toolkits
   		iv) Integrate the front end and back end.
   
     4) Testing:
-  		i) Testing frequently asked questions.
-  		ii) Testing ambiguous questions.
-  		iii) testing the interactive elements
+  		i) Testing frequently asked questions and ambiguous questions.
+  		ii) Testing and debugging language toolkits.
+  		iii) Testing the interactive elements
   		iv) Record errors and fix them.
-			a) debugging
- 			b) Add code for error prevention
+			a) Debugging
+			b) Add code for error prevention
 			c) Supplement and complete the dataset
 
     5) Publishing application:
  		i) Establish publishing date
  		ii) Synchronize each member’s work
-		iii) Publish the application to github
- 	 	iv) Presentation
+		iii) Publish the application to GitHub
+ 	 	iv) New Presentation Video
 	
 --- 
 ## Old Work Breakdown Structure (WBS):
