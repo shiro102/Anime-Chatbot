@@ -22,9 +22,9 @@ The automated testing process will be triggered everytime something is pushed to
       - actual output: []
 
    - Test2: 
-      - input: 
-      - expected output: 
-      - actual output: 
+      - input: "Far far away, behind the word mountains, far from the ... " (long text)
+      - expected output: ['far', 'far', 'away', ',', 'behind', 'the', 'word', 'mountain', ',', 'far', 'from', 'the', ...] (long array)
+      - actual output: ['far', 'far', 'away', ',', 'behind', 'the', 'word', 'mountain', ',', 'far', 'from', 'the', ...] (long array)
 
    - Test3: 
       - input: "@elonmusk how are you doing w/ ur rocket & spaceship? Can I buy it for ~$100 +- 5? (btw here's my email hello@gmail.com) ^^"
