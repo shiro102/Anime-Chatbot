@@ -59,6 +59,22 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
 <br>
 
+## Data Flow Diagrams (DFD)
+
+- Level 0: 
+
+    - Image: ![Level-0 DFD](https://media.discordapp.net/attachments/798946362313408572/823464038859669524/Test.png)
+
+    - Explain: 
+
+- Level 1: 
+
+    - Image: ![Level-1 DFD](https://media.discordapp.net/attachments/798946362313408572/824776257337032764/DFD_Level_1.jpeg?width=942&height=718)
+
+    - Explain: 
+
+<br>
+
 ## Features: 
 
 - Synonym recognition
