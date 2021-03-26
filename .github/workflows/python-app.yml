@@ -23,7 +23,15 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest nltk numpy
+        python -m pip install flake8 pytest
+        python -m pip install nltk
+        python -m pip install stanfordcorenlp
+        python -m pip install numpy
+        python -m pip install tensorflow
+        python -m pip install pickle5
+        python -m pip install Keras
+        python -m pip install wikipedia
+        
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
