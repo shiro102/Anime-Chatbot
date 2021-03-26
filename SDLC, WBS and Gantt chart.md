@@ -25,8 +25,8 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 ### Process: 
      1) Analyze requirements and Create Tasks:
  	 	i) Choosing a platform to publish the application
-    	           a) Creating github account for each team member
-    	           b) Creating  team github account
+			a) Creating github account for each team member
+			b) Creating  team github account
   		ii) Choose a software development cycle
   	 	iii) Creating WBS and Gantt charts.
 		iv) Create Level-0 and Level-1 Data Flow Diagrams (DFDs)
@@ -41,8 +41,8 @@ Our team chose incremental development as our SDLC model, generated a list of ta
   		i) Build the dataset for the chatbot
   		ii) Implement the user interface. 
   		iii) Implement back-end (Training the chatbot)	
-              		a) Choose libraries
-		 			b) Implement language toolkits
+			a) Choose libraries
+			b) Implement language toolkits
   		iv) Integrate the front end and back end.
   
     4) Testing:
@@ -51,7 +51,7 @@ Our team chose incremental development as our SDLC model, generated a list of ta
   		iii) Testing the interactive elements
   		iv) Record errors and fix them.
 			a) Debugging
- 			b) Add code for error prevention
+			b) Add code for error prevention
 			c) Supplement and complete the dataset
 
     5) Publishing application:
