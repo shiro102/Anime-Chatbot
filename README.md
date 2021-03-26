@@ -65,13 +65,14 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
     - Image: ![Level-0 DFD](https://media.discordapp.net/attachments/798946362313408572/823464038859669524/Test.png)
 
-    - Explain: 
+    - Explain: This is our level 0 DFD, as you can see we have two entities namely, The user that is using the chatbot and the developers, which would be our entire team. The way the developers interact with the chatbot is by implementing new features fixing any bugs etc.
+
 
 - Level 1: 
 
     - Image: ![Level-1 DFD](https://media.discordapp.net/attachments/798946362313408572/824776257337032764/DFD_Level_1.jpeg?width=942&height=718)
 
-    - Explain: 
+    - Explain: This right here is our level 1 DFD. Like the level 0 DFD we still have our developer and user as our entities. We have our synonym recognition, POS tagging and sentiment analysis as our processes. Our synonym recognition process works on the intents that is already in the dataset. Whereas the POS and sentimental works when only when the user has typed something on the UI and the bot prepares its response by picking required response from the dataset which is symbolized by the datastore at the bottom. We have another datastore that stores the conversation log named “conversation log”, the option to store this conversation comes from the UI.
 
 <br>
 
