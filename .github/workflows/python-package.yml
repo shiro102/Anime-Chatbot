@@ -34,6 +34,7 @@ jobs:
         python -m pip install pickle5
         python -m pip install Keras
         python -m pip install wikipedia
+        cd ./Code
         
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
