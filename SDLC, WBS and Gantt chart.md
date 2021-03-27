@@ -397,7 +397,7 @@ Turn-32 User : What are famous Anime RPG?
 	5) Dragon Ball: Xenoverse 2
 
 
-turn-33 User : Tell me about Japan?
+Turn-33 User : Tell me about Japan?
 
 	Anime bot : Japan has a fascinating and multifaceted
 	culture; on the one hand it is steeped in the deepest 
@@ -408,7 +408,7 @@ turn-33 User : Tell me about Japan?
 	the boundaries of the possible.
 	
 	
-turn-34 User : Tell me about People in Japan?
+Turn-34 User : Tell me about People in Japan?
 
 	Anime bot: Japanese people appear at first glance to be
 	one of the most socially and ethnically homogenous groups 
@@ -416,7 +416,7 @@ turn-34 User : Tell me about People in Japan?
 	
 	
 	
-turn-35 User : Tell me about Religion in Japan?
+Turn-35 User : Tell me about Religion in Japan?
 
 	Anime bot : Japan's de facto national sport (although this 
 	is not an official status) is the enthralling and at times
@@ -427,7 +427,7 @@ turn-35 User : Tell me about Religion in Japan?
 	originated as a form of Shinto ritual.
 	
 	
-turn-36 User : Tell me about food in Japan?
+Turn-36 User : Tell me about food in Japan?
 
 	Anime bot : When it comes to food, the Japanese are among the
 	most enthusiastic and passionate of any race. Ask any Japanese
@@ -437,7 +437,7 @@ turn-36 User : Tell me about food in Japan?
 	of the primary motivators for travelling.
 	
 	
-turn-37 User : Tell me about Samurais?
+Turn-37 User : Tell me about Samurais?
 
 	Anime bot : In Japanese history, samurai culture and the role this
 	military class played in shaping Japan is a fascinating one.
