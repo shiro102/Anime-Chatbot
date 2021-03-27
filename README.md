@@ -1,12 +1,10 @@
 # Chat-bot-team-20
 
-Link for first live demo:
-https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view
-
+Link for the first live demo:
+<https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view>
 <br>
-
-Link for second live demo:
-https://drive.google.com/file/d/19O4-AgcyX_AJekY5BoluZdNu83gTw2fO/view
+Link for the second live demo:
+<https://drive.google.com/file/d/19O4-AgcyX_AJekY5BoluZdNu83gTw2fO/view>
 =======
 Github URL: <br>https://github.com/shiro102/Chat-bot-team-20
 =======
