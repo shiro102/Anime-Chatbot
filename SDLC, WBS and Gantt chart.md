@@ -73,6 +73,12 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 
 <br>
 
+## Insight of the contributors to this project
+
+![Commit Branch](https://media.discordapp.net/attachments/798946362313408572/825216416013090886/unknown.png?width=620&height=791)
+
+<br>
+
 ## Limitations of the program submitted: 
 
 -	The biggest limitation on the chatbot is that we don’t have a dataset that is large enough. We don’t have an enterprise-level development team and the dataset would be very limited and would only be applicable to certain situations.

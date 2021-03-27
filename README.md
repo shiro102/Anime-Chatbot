@@ -80,6 +80,20 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
 <br>
 
+## A List of 5 features that can be shared to others as API
+
+- POS Tagging: includes the ability to searching on wikipedia and give responses based on that.
+
+- Python file "SentimentalAnalyzer": a file that implements sentiment analysis
+
+- Our chat bot: an application for others to view and modify.
+
+- The method "remove_noise": removes all unnecessary words from a sentence
+
+- Our Graphical User Interface
+
+<br>
+
 ## Features: 
 
 - Synonym recognition
