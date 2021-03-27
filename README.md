@@ -68,7 +68,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
     - Image: ![Level-0 DFD](https://media.discordapp.net/attachments/798946362313408572/825163035822915614/Level_0.png)
 
-    - Explain: This is our level 0 DFD, as you can see we have two entities namely, The user that is using the chatbot and the developers, which would be our entire team. The way the developers interact with the chatbot is by implementing new features fixing any bugs etc.
+    - Explain: This is our level 0 DFD, as you can see we have three entities namely, The user that is using the chatbot, the chatbot and the developers, which would be our entire team. The way the developers interact with the chatbot is by implementing new features fixing any bugs etc.
 
 
 - Level 1: 
