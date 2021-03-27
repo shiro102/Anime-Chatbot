@@ -396,13 +396,65 @@ Turn-32 User : What are famous Anime RPG?
 	4) Dragon Quest XI
 	5) Dragon Ball: Xenoverse 2
 
+
+turn-33 User : Tell me about Japan?
+
+	Anime bot : Japan has a fascinating and multifaceted
+	culture; on the one hand it is steeped in the deepest 
+	of traditions dating back thousands of years; on the
+	other it is a society in a continual state of rapid 
+	flux, with continually shifting fads and fashions and
+	technological development that constantly pushes back 
+	the boundaries of the possible.
+	
+	
+turn-34 User : Tell me about People in Japan?
+
+	Anime bot: Japanese people appear at first glance to be
+	one of the most socially and ethnically homogenous groups 
+	in the world.
+	
+	
+	
+turn-35 User : Tell me about Religion in Japan?
+
+	Anime bot : Japan's de facto national sport (although this 
+	is not an official status) is the enthralling and at times
+	bewildering spectacle that is sumo. Deeply rooted in Japan's
+	culture, sumo has a history of over 1,500 years. Legend has 
+	it that the very survival of the Japanese people balanced on
+	the outcome of a sumo match between the gods, and indeed sumo 
+	originated as a form of Shinto ritual.
+	
+	
+turn-36 User : Tell me about food in Japan?
+
+	Anime bot : When it comes to food, the Japanese are among the
+	most enthusiastic and passionate of any race. Ask any Japanese
+	person about a recent trip within Japan and the conversation
+	almost always includes talk of the local food. In fact, for many
+	Japanese travelling outside of their hometowns, food is often one
+	of the primary motivators for travelling.
+	
+	
+turn-37 User : Tell me about Samurais?
+
+	Anime bot : In Japanese history, samurai culture and the role this
+	military class played in shaping Japan is a fascinating one.
+	Although samurai no longer exist, the influence of these great 
+	warriors still manifests itself deeply in Japanese culture and
+	samurai heritage can be seen all over Japan - be it a great castle,
+	a carefully planned garden, or beautifully preserved samurai
+	residences. It is also deeply ingrained in the psyche of the Japanese
+	people.
+	
  
-Turn-33 User : That's helpful!
+Turn-38 User : That's helpful!
 
 	Anime bot : My pleasure
 
  
-Turn-34 User : See you later
+Turn-39 User : See you later
 
 	Anime bot : Bye! Come back again soon
 	
