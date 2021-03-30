@@ -1,1 +1,1 @@
-To run the synonym recognition, you should install stanford-corenlp-4.2.0 package from this link: https://stanfordnlp.github.io/CoreNLP/download.html and replace the folder of the same name.
+To run the synonym recognition, you should install stanford-corenlp-4.2.0 package from this link: https://stanfordnlp.github.io/CoreNLP/download.html and replace the folder of the same name. However, other functions of the bot will still work even if the package is missing.
