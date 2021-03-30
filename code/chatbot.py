@@ -1,6 +1,7 @@
 from stanfordcorenlp import StanfordCoreNLP
 import nltk
 nltk.download("wordnet")
+nltk.download("punkt")
 from nltk.tag import pos_tag
 import re, string
 from nltk.stem import WordNetLemmatizer
