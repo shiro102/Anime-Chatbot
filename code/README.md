@@ -1,3 +1,3 @@
 - To run the synonym recognition, you should install stanford-corenlp-4.2.0 package from this link: https://stanfordnlp.github.io/CoreNLP/download.html and replace the folder of the same name. However, other functions of the bot will still work even if the package is missing.
-- Package install before run using "pip install": nltk, tensorflow, keras, wikipedia, stanfordcorenlp, etc.
+- Package install before run using "pip install": nltk, tensorflow, keras, wikipedia, stanfordcorenlp, pillow, etc.
 - On line 18 remember to change the directory to the place where you store the stanfordcorenlp folder.
