@@ -20,7 +20,7 @@ In this project, we developed an interactive conversational agent that responds 
 
 ### **How to run it:** 
 
-To compile the code, we run in terminal these 2 lines of codes - “python train.py” and “python chatbot.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. Further instructions are in the README file in the CODE folder.
+To compile the code, we run in terminal these 2 files of code - “train.py” and “chatbot.py”. The first code is to train the model which is used by the chatbot to generate responses. The second code is to run the app. Further instructions are in the README file in the CODE folder.
 
 ### **Stages of development:**
 
@@ -63,6 +63,8 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 - Class “Home” is the class for our home page in the Graphical User Interface and it contains all features present on that page.
 
 - Class “Recent”, is used to record and store recent conversation dialogue in our recent conversation page in the Graphical User Interface. It contains all features present on that page.
+- Class "FlickrAPI" is used in our chatbot to import and show images from "flickr.com". It is integrated with "wikipedia" so that bot tries search for image based of the wikipedia search results and displays them besides it.
+- Class "googletrans" is used to generate translation based on "Google Translator". So it detects the language and if it is not in English then our chatbot replies with the language detected.
 
 <br>
 
