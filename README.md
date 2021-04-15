@@ -1,4 +1,4 @@
-# Individual Chat bot Project
+# Individual Chat bot Project by Anshul Dhariwal
 
 # Individual Project Demo:
 
