@@ -152,6 +152,12 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
     - Example 1: ![Trans1](https://cdn.discordapp.com/attachments/672366653585096736/832051581946953728/unknown.png)
     
     - Example 2: ![Trans2](https://cdn.discordapp.com/attachments/672366653585096736/832056008704131102/unknown.png)
+    
+    - Code 1: ![Trans Code 1](https://cdn.discordapp.com/attachments/672366653585096736/832056866770911303/unknown.png)
+    
+    - Code 2: ![Trans Code 2](https://cdn.discordapp.com/attachments/672366653585096736/832057205904769075/unknown.png)
+    
+    - Code 3: ![Trans Code 3](https://cdn.discordapp.com/attachments/672366653585096736/832057619417399316/unknown.png)
 
 <br>
 
