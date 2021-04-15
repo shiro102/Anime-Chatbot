@@ -134,12 +134,9 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 # For Individual Project:
 - Wikipedia (Update):
         - Function: To search the wikipedia if encountered by 'Proper Nouns' in the user input. Earlier there were some errors in which you had nouns with more than one word then if won't search the complete phrase/nouns instead just part of it. Also, wikipedia tried to provide suggestions in the searches made which gave errors and wrong results. These things were removed and auto suggestions was turned off to provide better output.
- 
-        - Before: ![Old Wikipedia](https://cdn.discordapp.com/attachments/672366653585096736/832034208758497290/unknown.png)
- 
-        - After: ![New Wikipedia](https://cdn.discordapp.com/attachments/672366653585096736/832033247949094952/unknown.png)
-
-        - Code: ![Auto Suggest](https://cdn.discordapp.com/attachments/672366653585096736/832035190494068746/unknown.png)
+                 - Before: ![Old Wikipedia](https://cdn.discordapp.com/attachments/672366653585096736/832034208758497290/unknown.png)
+                 - After: ![New Wikipedia](https://cdn.discordapp.com/attachments/672366653585096736/832033247949094952/unknown.png)
+                 - Code: ![Auto Suggest](https://cdn.discordapp.com/attachments/672366653585096736/832035190494068746/unknown.png)
 - Flickr:
         - Function: Topped with wikipedia search, this API searches for relevent images on "flickr.com". It also checks if the image exists on the flickr and if doesn't then it informs the user about it.
         - Example: ![Flickr Example](https://cdn.discordapp.com/attachments/672366653585096736/832037460384022609/unknown.png)
