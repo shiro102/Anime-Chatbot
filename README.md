@@ -10,7 +10,7 @@ In this project, we developed an interactive conversational agent that responds 
 
 ### **How to run it:** 
 
-To compile the code, we run in terminal these 2 lines of codes - “python train.py” and “python chatbot.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. Further instructions are in the README file in the CODE folder.
+To compile the code, we run in terminal these 2 lines of codes - “python train.py” and “python chatbot.py”. The first code is to train the model so that the GUI might function properly. The second code is to run the app. Further instructions are in the README file in the CODE folder.
 
 ### **Stages of development:**
 
